@@ -30,6 +30,8 @@ public class AccountsPage {
 		return eleUtil.waitForTitleIs(AppConstants.ACCOUNTS_PAGE_TITLE, TimeUtil.DEFAULT_TIME_OUT);
 	}
 	
+	
+	
 	public String getAccPageURL() {
 		return eleUtil.waitForUrlContains(AppConstants.ACC_PAGE_FRACTION_URL, TimeUtil.DEFAULT_TIME_OUT);
 	}
